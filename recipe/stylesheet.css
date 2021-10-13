@@ -1,0 +1,29 @@
+
+
+h1{
+  color: teal;
+  font-family:'Gluten',cursive;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight:300;
+  font-size:3rem;
+}
+
+h2{
+ font-family:'Gluten',cursive;
+ font-weight: 200;
+  color:maroon
+  font-size: 2rem
+}
+
+body{
+  font-family:'Open Sans', sans-serif;
+}
+
+div{
+  background-color: lightpink;
+  border:solid 4px lightgray;
+}
+
+img{
+  max-width: 100%;
+}
