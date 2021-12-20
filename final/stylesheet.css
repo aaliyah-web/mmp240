@@ -71,6 +71,10 @@ h2{
   background-color: #f0e6ff;
 }
 
+footer{
+  padding: 10px;
+  font-style: italic;
+}
 
 @media (min-width:768px){
 
