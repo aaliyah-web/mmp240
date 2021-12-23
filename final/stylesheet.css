@@ -28,6 +28,7 @@ h2{
 .site-header{
   display:flex;
   justify-content: space-between;
+
 }
 
 .menu{
@@ -59,6 +60,7 @@ h2{
 .event-item img{
   width: 100%;
 }
+
 
 .layout{
   padding-left: 15px;
@@ -97,17 +99,13 @@ background-color: #e3dbff
 .card{
   background-color: #b7ace3;
   padding:1em;
-  display: grid;
-  grid-template-columns: 3fr 3fr;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-gap: 1em;
+
 
 }
 
 .programs{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-column-gap: 1em;
   grid-column: 3;
 }
@@ -117,11 +115,6 @@ img{
   width: 100%;
 }
 
-.layout{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-column-gap: 1em;
-}
 
 .search-programs li{
   display: inline-block;
@@ -146,10 +139,6 @@ img{
   border: double;
 }
 
-.menu li{
-  display:inline;
-  margin-right: 2em;
-}
 
 
 .search-programs li:hover .dropdown{
@@ -159,6 +148,17 @@ img{
 
 
 @media (min-width:768px){
+
+  .layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 1em;
+  }
+
+  .menu li{
+    display:inline;
+    margin-right: 2em;
+  }
 
   .show-menu{
     display:none;
